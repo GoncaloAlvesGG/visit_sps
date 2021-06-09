@@ -26,7 +26,6 @@ import './screens/barras.dart';
 //Linguagens Suportadas
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await EasyLocalization.ensureInitialized();
   runApp(
     Phoenix(
       child: EasyLocalization(
